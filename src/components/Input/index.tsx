@@ -15,10 +15,6 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   Icon?: any;
 }
 
-interface Value {
-  value: any;
-}
-
 const Input = ({ name, Icon, ...rest }: InputProps) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
