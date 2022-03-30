@@ -1,8 +1,14 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   background: #c72828;
   padding: 30px 0;
+
+  h1 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   header {
     width: 1280px;
